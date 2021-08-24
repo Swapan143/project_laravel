@@ -7,6 +7,8 @@ use App\Http\Controllers\admin\DashboardController;
 use App\Http\Controllers\admin\categorylist\CategoryController;
 use App\Http\Controllers\admin\categorylist\SubcategoryController;
 use App\Http\Controllers\admin\categorylist\ChildcategoryController;
+use App\Http\Controllers\admin\Homecontroller;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,7 +17,7 @@ use App\Http\Controllers\admin\categorylist\ChildcategoryController;
 | Here is where you can register web routes for your application. These
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
-|
+| 
 */
 
 Route::get('/', [AdminController::class, 'index']);
@@ -40,3 +42,4 @@ Route::get('/admin/viewchildcategory', [ChildcategoryController::class, 'viewchi
 
 
 Route::resource('posts', PostController::class);
+Route::get('/admin/Home',[Homecontroller::class,'home'])->name('myhome');
