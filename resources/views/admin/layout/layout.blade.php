@@ -7,36 +7,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title></title>    
-    <link rel="icon" href="{{ URL::asset('webroot') }}/admin/images/fav.jpg" type="image/x-icon">
-    <link href="{{ URL::asset('webroot') }}/admin/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ URL::asset('webroot') }}/admin/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link rel="icon" href="{{ asset('webroot/admin/images/fav.jpg') }}" type="image/x-icon">
+    <link href="{{ asset('webroot/admin/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('webroot/admin/font-awesome/css/font-awesome.css') }}" rel="stylesheet">
 
     <!-- Toastr style -->
-    <link href="{{ URL::asset('webroot') }}/admin/css/plugins/toastr/toastr.min.css" rel="stylesheet">
+    <link href="{{ asset('webroot/admin/css/plugins/toastr/toastr.min.css') }}" rel="stylesheet">
 
     <!-- Gritter -->
-    <link href="{{ URL::asset('webroot') }}/admin/js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
+    <link href="{{ asset('webroot/admin/js/plugins/gritter/jquery.gritter.css') }}" rel="stylesheet">
 
-    <link href="{{ URL::asset('webroot') }}/admin/css/animate.css" rel="stylesheet">
+    <link href="{{ asset('webroot/admin/css/animate.css') }}" rel="stylesheet">
 
     <!-- <link href="{{ URL::asset('webroot') }}/admin/css/select2.css" rel="stylesheet"> -->
     <!-- <link href="{{ URL::asset('webroot') }}/admin/css/select2.min.css" rel="stylesheet"> -->
 
-    <link href="{{ URL::asset('webroot') }}/admin/css/style.css" rel="stylesheet">
-    <link href="{{ URL::asset('webroot') }}/admin/css/wickedpicker.min.css" rel="stylesheet">
-    <link href="{{ URL::asset('webroot') }}/admin/css/plugins/dataTables/datatables.min.css" rel="stylesheet">
-    <link href="{{ URL::asset('webroot') }}/admin/css/validationEngine.jquery.css' rel="stylesheet">
-    <link href="{{ URL::asset('webroot') }}/admin/css/plugins/switchery/switchery.css" rel="stylesheet">
-    <link href="{{ URL::asset('webroot') }}/admin/css/jquery.timepicker.css" rel="stylesheet">
+    <link href="{{ asset('webroot/admin/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('webroot/admin/css/wickedpicker.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('webroot/admin/css/plugins/dataTables/datatables.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('webroot/admin/css/validationEngine.jquery.css') }}' rel="stylesheet">
+    <link href="{{ asset('webroot/admin/css/plugins/switchery/switchery.css') }}" rel="stylesheet">
+    <link href="{{ asset('webroot/admin/css/jquery.timepicker.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link href="{{ URL::asset('webroot') }}/admin/css/plugins/iCheck/custom.css" rel="stylesheet">
-    <link href="{{ URL::asset('webroot') }}/admin/css/plugins/steps/jquery.steps.css" rel="stylesheet">
-    <link href="{{ URL::asset('webroot') }}/admin/css/plugins/summernote/summernote.css" rel="stylesheet">
+    <link href="{{ asset('webroot/admin/css/plugins/iCheck/custom.css') }}" rel="stylesheet">
+    <link href="{{ asset('webroot/admin/css/plugins/steps/jquery.steps.css') }}" rel="stylesheet">
+    <link href="{{ asset('webroot/admin/css/plugins/summernote/summernote.css') }}" rel="stylesheet">
 
 
 
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js"></script> -->
-    <script src="{{ URL::asset('webroot') }}/admin/js/jquery-3.1.1.min.js"></script>
+    <script src="{{ asset('webroot/admin/js/jquery-3.1.1.min.js') }}"></script>
     
     
     
@@ -52,9 +52,9 @@
                 <ul class="nav metismenu" id="side-menu">
                     <li class="nav-header">
                     <div class="logo">
-                        <!-- <img alt="image" class="img-responsive" src="{{ URL::asset('webroot') }}/admin/img/logo.png" /></div> -->
+                        <!-- <img alt="image" class="img-responsive" src="{{ asset('webroot') }}/admin/img/logo.png" /></div> -->
                     <div class="logo-element">
-                        <!-- <img alt="image" class="img-responsive" src="{{ URL::asset('webroot') }}/admin/img/logo-icon.png" /> -->
+                        <!-- <img alt="image" class="img-responsive" src="{{ asset('webroot') }}/admin/img/logo-icon.png" /> -->
                     </div>
                 </li>
 
@@ -85,6 +85,9 @@
         <a href="{{ url('admin/changepassword') }}"><i class="fa fa-key"></i> <span class="nav-label">CHANGE PASSWORD</span></a>
     </li>  
 
+    <li class="">
+        <a href="{{ route('myhome') }}"><i class="fa fa-key"></i> <span class="nav-label">CHANGE PASSWORD1</span></a>
+    </li>  
     
     </ul>
       <ul class="nav metismenu log-out-menu">
@@ -189,71 +192,71 @@
 
     <!-- Mainly scripts -->
     <!-- <script src="{{ URL::asset('webroot') }}/admin/js/jquery-3.1.1.min.js"></script> -->
-    <script src="{{ URL::asset('webroot') }}/admin/js/jquery.number.js"></script>
+    <script src="{{ asset('webroot/admin/js/jquery.number.js') }}"></script>
     <!-- <script src="https://code.jquery.com/jquery-1.11.3.js"></script> -->
-    <script src="{{ URL::asset('webroot') }}/admin/js/bootstrap.min.js"></script>
-    <script src="{{ URL::asset('webroot') }}/admin/js/plugins/metisMenu/jquery.metisMenu.js"></script>
-    <script src="{{ URL::asset('webroot') }}/admin/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="{{ asset('webroot//admin/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('webroot/admin/js/plugins/metisMenu/jquery.metisMenu.js') }}"></script>
+    <script src="{{ asset('webroot/admin/js/plugins/slimscroll/jquery.slimscroll.min.js') }}"></script>
 
     <!-- Flot -->
-    <script src="{{ URL::asset('webroot') }}/admin/js/plugins/flot/jquery.flot.js"></script>
-    <script src="{{ URL::asset('webroot') }}/admin/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
-    <script src="{{ URL::asset('webroot') }}/admin/js/plugins/flot/jquery.flot.spline.js"></script>
-    <script src="{{ URL::asset('webroot') }}/admin/js/plugins/flot/jquery.flot.resize.js"></script>
-    <script src="{{ URL::asset('webroot') }}/admin/js/plugins/flot/jquery.flot.pie.js"></script>
-    <script src="{{ URL::asset('webroot') }}/admin/js/plugins/flot/jquery.flot.symbol.js"></script>
-    <script src="{{ URL::asset('webroot') }}/admin/js/plugins/flot/jquery.flot.time.js"></script>
+    <script src="{{ asset('webroot/admin/js/plugins/flot/jquery.flot.js') }}"></script>
+    <script src="{{ asset('webroot/admin/js/plugins/flot/jquery.flot.tooltip.min.js') }}"></script>
+    <script src="{{ asset('webroot/admin/js/plugins/flot/jquery.flot.spline.js') }}"></script>
+    <script src="{{ asset('webroot/admin/js/plugins/flot/jquery.flot.resize.js') }}"></script>
+    <script src="{{ asset('webroot/admin/js/plugins/flot/jquery.flot.pie.js') }}"></script>
+    <script src="{{ asset('webroot/admin/js/plugins/flot/jquery.flot.symbol.js') }}"></script>
+    <script src="{{ asset('webroot/admin/js/plugins/flot/jquery.flot.time.js') }}"></script>
 
     <!-- Peity -->
-    <script src="{{ URL::asset('webroot') }}/admin/js/plugins/peity/jquery.peity.min.js"></script>
-    <script src="{{ URL::asset('webroot') }}/admin/js/demo/peity-demo.js"></script>
+    <script src="{{ asset('webroot/admin/js/plugins/peity/jquery.peity.min.js') }}"></script>
+    <script src="{{ asset('webroot/admin/js/demo/peity-demo.js') }}"></script>
 
     <!-- Custom and plugin javascript -->
-    <script src="{{ URL::asset('webroot') }}/admin/js/inspinia.js"></script>
-    <script src="{{ URL::asset('webroot') }}/admin/js/plugins/pace/pace.min.js"></script>
+    <script src="{{ asset('webroot/admin/js/inspinia.js') }}"></script>
+    <script src="{{ asset('webroot/admin/js/plugins/pace/pace.min.js') }}"></script>
 
     <!-- jQuery UI -->
-    <script src="{{ URL::asset('webroot') }}/admin/js/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script src="{{ asset('webroot/admin/js/plugins/jquery-ui/jquery-ui.min.js') }}"></script>
 
     <!-- GITTER -->
-    <script src="{{ URL::asset('webroot') }}/admin/js/plugins/gritter/jquery.gritter.min.js"></script>
+    <script src="{{ asset('webroot/admin/js/plugins/gritter/jquery.gritter.min.js') }}"></script>
 
     <!-- Sparkline -->
-    <script src="{{ URL::asset('webroot') }}/admin/js/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <script src="{{ asset('webroot/admin/js/plugins/sparkline/jquery.sparkline.min.js') }}"></script>
 
     <!-- Sparkline demo data  -->
-    <script src="{{ URL::asset('webroot') }}/admin/js/demo/sparkline-demo.js"></script>
+    <script src="{{ asset('webroot/admin/js/demo/sparkline-demo.js') }}"></script>
 
     
 
     <!-- Toastr -->
-    <script src="{{ URL::asset('webroot') }}/admin/js/plugins/toastr/toastr.min.js"></script>
+    <script src="{{ asset('webroot/admin/js/plugins/toastr/toastr.min.js') }}"></script>
 
-    <script src="{{ URL::asset('webroot') }}/admin/js/plugins/dataTables/datatables.min.js"></script>
+    <script src="{{ asset('webroot/admin/js/plugins/dataTables/datatables.min.js') }}"></script>
 
-    <script src="{{ URL::asset('webroot') }}/admin/js/common.js"></script>
+    <script src="{{ asset('webroot/admin/js/common.js') }}"></script>
 
-    <script src="{{ URL::asset('webroot') }}/admin/js/jquery.validationEngine.js"></script>
-    <script src="{{ URL::asset('webroot') }}/admin/js/jquery.validationEngine-en.js"></script>
-    <script src="{{ URL::asset('webroot') }}/admin/js/plugins/switchery/switchery.js"></script>
+    <script src="{{ asset('webroot/admin/js/jquery.validationEngine.js') }}"></script>
+    <script src="{{ asset('webroot/admin/js/jquery.validationEngine-en.js') }}"></script>
+    <script src="{{ asset('webroot/admin/js/plugins/switchery/switchery.js') }}"></script>
 
-    <script src="{{ URL::asset('webroot') }}/admin/js/wickedpicker.min.js"></script>
-    <script src="{{ URL::asset('webroot') }}/admin/js/plugins/iCheck/icheck.min.js"></script>
+    <script src="{{ asset('webroot/admin/js/wickedpicker.min.js') }}"></script>
+    <script src="{{ asset('webroot/admin/js/plugins/iCheck/icheck.min.js') }}"></script>
 
     <!-- Custom and plugin javascript -->
     
     <!-- EayPIE -->
-    <script src="{{ URL::asset('webroot') }}/admin/js/plugins/easypiechart/jquery.easypiechart.js"></script>
+    <script src="{{ asset('webroot/admin/js/plugins/easypiechart/jquery.easypiechart.js') }}"></script>
 
     <!-- Steps -->
-    <script src="{{ URL::asset('webroot') }}/admin/js/plugins/steps/jquery.steps.min.js"></script>
+    <script src="{{ asset('webroot/admin/js/plugins/steps/jquery.steps.min.js') }}"></script>
 
     <!-- Jquery Validate -->
-    <script src="{{ URL::asset('webroot') }}/admin/js/plugins/validate/jquery.validate.min.js"></script>
+    <script src="{{ asset('webroot/admin/js/plugins/validate/jquery.validate.min.js') }}"></script>
     
-    <script src="{{ URL::asset('webroot') }}/admin/js/plugins/summernote/summernote.min.js"></script>
-    <!-- <script src="{{ URL::asset('webroot') }}/admin/js/ckeditor/adapters/jquery.js"></script> -->
-    <script src="{{ URL::asset('webroot') }}/admin/js/ckeditor/ckeditor.js"></script>
+    <script src="{{ asset('webroot/admin/js/plugins/summernote/summernote.min.js') }}"></script>
+    <!-- <script src="{{ asset('webroot') }}/admin/js/ckeditor/adapters/jquery.js"></script> -->
+    <script src="{{ asset('webroot/admin/js/ckeditor/ckeditor.js') }}"></script>
     
     </body>
 
