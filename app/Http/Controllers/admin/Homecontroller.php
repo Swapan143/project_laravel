@@ -10,7 +10,7 @@ class Homecontroller extends Controller
     
     public function home()
     {
-        return "Hello world";
+        return "Hello world Swapan";
     }
     
 }
